@@ -20,16 +20,16 @@ end
 
 
 
-# def reverse_each_word(sentence1)
-#   split_array = sentence1.split(' ')
-#   split_array.collect do |word|
-#     word.reverse!
-#   end
-#   return split_array.join(' ')
-# end
+def reverse_each_word(sentence1)
+  split_array = sentence1.split(' ')
+  split_array.collect do |word|
+    word.reverse!
+  end
+  return split_array.join(' ')
+end
 
 # refractured
 
- def reverse_each_word(sentence1)
-split_array = sentence1.split(' ').collect{|word| word.reverse!} return split_array.join(' ')
-end
+# def reverse_each_word(sentence1)
+# split_array = sentence1.split(' ').collect{|word| word.reverse!} split_array.join(' ')
+# end
