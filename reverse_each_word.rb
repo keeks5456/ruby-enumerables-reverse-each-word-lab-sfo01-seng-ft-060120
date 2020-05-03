@@ -7,6 +7,7 @@ split_array.each do |word|
   reversed << word.reverse
   end
   return reversed.join(' ')
+  binding.pry
 end
 
 
