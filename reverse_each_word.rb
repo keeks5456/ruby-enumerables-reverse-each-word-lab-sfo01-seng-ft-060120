@@ -27,6 +27,8 @@ end
 #   return split_array.join(' ')
 # end
 
+
+
 # refractured
 
 def reverse_each_word(sentence1)
