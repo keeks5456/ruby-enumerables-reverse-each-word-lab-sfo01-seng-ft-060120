@@ -5,9 +5,9 @@ split_array = sentence1.split(' ')
 reversed = []
 split_array.each do |word|
   reversed << word.reverse
+    binding.pry
   end
   return reversed.join(' ')
-  binding.pry
 end
 
 
